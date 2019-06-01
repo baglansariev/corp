@@ -119,6 +119,7 @@ header{
 }
 .slider-viewport{
 	height: 100%;
+	position: relative;
 }
 .slider-image{
 	width: 100vw;
@@ -138,6 +139,7 @@ header{
 	border: 1px solid #fff;
 	border-radius: 5px;
 	cursor: pointer;
+	z-index: 4;
 }
 .fa-chevron-right{
 	right: 5%;
@@ -153,6 +155,7 @@ header{
 	color: #fff;
 	background-color: #00C373;
 	border-radius: 5px;
+	border: none;
 	font-weight: bolder;
 	transition: all ease 0.4s;
 	cursor: pointer;
@@ -295,13 +298,73 @@ header{
 .callback-content form{
 	width: 45%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
 }
 .callback-content form div{
-	width: 50%;
+	width: 48%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
+}
+.callback-content form div input[type="text"]{
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+	background-color: #D8E7EF;
+}
+.callback-content form div input[type="submit"]{
+	margin-bottom: 20px;
+	margin-left: 0;
+}
+.latest-news{
+	padding: 40px 0;
+}
+.latest-news h4{
+	width: 30%;
+	font-size: 30px;
+	border-bottom: 5px solid #18BA60;
+	padding-bottom: 10px;
+	margin-bottom: 40px;
+}
+.news-image{
+	width: 100%;
+	max-height: 60%;
+	overflow: hidden;
+	position: relative;
+}
+.news-image .date{
+	position: absolute;
+	color: #fff;
+	width: 60px;
+	text-align: center;
+	background-color: #18BA60;
+	font-size: 20px;
+	font-weight: bolder;
+	top: 0;
+	left: 10%;
+	display: flex;
+}
+.news-image img{
+	width: 100%;
+	height: auto;
+}
+.news-text{
+	width: 100%;
+	height: 40%;
+	background-color: #F7F7F7;
+	padding: 10px 20px;
+}
+.news-intro-text{
+	font-size: 14px;
+	color: #666;
+}
+.news-heading{
+	font-weight: bolder;
+}
+.news-heading a:hover{
+	color: #18BA60;
 }
