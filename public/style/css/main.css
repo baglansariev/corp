@@ -368,3 +368,19 @@ header{
 .news-heading a:hover{
 	color: #18BA60;
 }
+.clients{
+	padding: 40px 0;
+	background-color: #F7F7F7;
+}
+.owl-carousel div img{
+	width: 180px !important;
+	height: auto;
+}
+.owl-nav{
+	display: flex;
+	justify-content: center;
+	font-size: 28px;
+}
+.owl-nav button{
+	margin-right: 20px;
+}

@@ -245,3 +245,29 @@
 		</div>
 	</div>
 </div>
+<div class="clients">
+	<div class="container">
+		<div class="row">
+			<div class="owl-carousel">
+			  <div>
+			  	<img src="/public/images/clients/1.png" alt="">
+			  </div>
+			  <div>
+			  	<img src="/public/images/clients/2.png" alt="">
+			  </div>
+			  <div>
+			  	<img src="/public/images/clients/3.png" alt="">
+			  </div>
+			  <div>
+			  	<img src="/public/images/clients/4.png" alt="">
+			  </div>
+			  <div>
+			  	<img src="/public/images/clients/5.png" alt="">
+			  </div>
+			  <div>
+			  	<img src="/public/images/clients/5.png" alt="">
+			  </div>
+			</div>
+		</div>
+	</div>
+</div>

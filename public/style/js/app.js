@@ -22,7 +22,6 @@ $(function(){
     function nextSlide(){
 	    var currentSlide=parseInt($('.slider-viewport').data('current'));
 	    currentSlide++;
-	    console.log($('.slider-viewport').children().length);
 	    if(currentSlide>=$('.slider-viewport').children().length)
 	    {
 	        currentSlide=0;   
@@ -74,5 +73,23 @@ $(function(){
 		$($('.intro-label')[2]).css('bottom', '20px');
 	});
 
+
+	// owl carousel setup
+	$('.owl-carousel').owlCarousel({
+	    loop:true,
+	    margin:10,
+	    nav:true,
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:3
+	        },
+	        1000:{	
+	            items:5
+	        }
+	    }
+	})
 	
 });
