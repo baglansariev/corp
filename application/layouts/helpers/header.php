@@ -28,10 +28,10 @@
 			</div>
 			<nav class="menu">
 				<ul>
-					<a href="">
+					<a href="/">
 						<li>Главная</li>
 					</a>
-					<a href="">
+					<a href="/about">
 						<li>О нас</li>
 					</a>
 					<a href="">
@@ -40,7 +40,7 @@
 					<a href="">
 						<li>Новости</li>
 					</a>
-					<a href="">
+					<a href="/contact">
 						<li>Контакты</li>
 					</a>
 				</ul>

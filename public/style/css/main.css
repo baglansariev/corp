@@ -441,8 +441,12 @@ footer{
 .company-info{
 	padding: 50px 0;
 }
-.company-info .row{
-	padding-bottom: 20px;
+.about-company{
+	margin-bottom: 30px;
+}
+.company-info .experts{
+	padding: 20px 0;
+	border-top: 1px solid #cdcdcd;
 	border-bottom: 1px solid #cdcdcd;
 }
 .info-image img{
