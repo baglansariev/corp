@@ -271,3 +271,56 @@
 		</div>
 	</div>
 </div>
+<div class="why-choose-us container">
+	<h4>Почему выбирают нас</h4>
+	<div class="row">
+		<div class="whywe col-xlg-4 col-lg-4">
+			<div class="whywe-img">
+				<img src="/public/images/whywe/cost.png" alt="">
+			</div>
+			<div class="whywe-text">
+				Оптимальная стоимость услуг  для частных заказчиков
+			</div>
+		</div>
+		<div class="whywe col-xlg-4 col-lg-4">
+			<div class="whywe-img">
+				<img src="/public/images/whywe/time.png" alt="">
+			</div>
+			<div class="whywe-text">
+				Выполнение экспертных работ оперативно и за сжатые сроки
+			</div>
+		</div>
+		<div class="whywe col-xlg-4 col-lg-4">
+			<div class="whywe-img">
+				<img src="/public/images/whywe/personal.png" alt="">
+			</div>
+			<div class="whywe-text">
+				Штат высокопрофессиональных экспертов
+			</div>
+		</div>
+		<div class="whywe col-xlg-4 col-lg-4">
+			<div class="whywe-img">
+				<img src="/public/images/whywe/reviews.png" alt="">
+			</div>
+			<div class="whywe-text">
+				Отзывы известных организации и отличная репутация
+			</div>
+		</div>
+		<div class="whywe col-xlg-4 col-lg-4">
+			<div class="whywe-img">
+				<img src="/public/images/whywe/quality.png" alt="">
+			</div>
+			<div class="whywe-text">
+				Качество наших услуг соответствует высшим стандартам
+			</div>
+		</div>
+		<div class="whywe col-xlg-4 col-lg-4">
+			<div class="whywe-img">
+				<img src="/public/images/whywe/law.png" alt="">
+			</div>
+			<div class="whywe-text">
+				Выполнения работ в соответствии законодательством РК и нормативно правовыми актами
+			</div>
+		</div>
+	</div>
+</div>
