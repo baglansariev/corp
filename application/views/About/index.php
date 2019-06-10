@@ -58,21 +58,21 @@
 		<div class="row">
 			<div class="advantage col-xlg-3 col-lg-3">
 				<span class="advantage-icon">
-					<i class="fas fa-users"></i>
+					<i class="fas fa-coffee"></i>
 				</span>
 				<span class="count">
-					777
+					2
 				</span>
 				<span class="advantage-title">
-					Лет на рынке
+					Года на рынке
 				</span>
 			</div>
 			<div class="advantage col-xlg-3 col-lg-3">
 				<span class="advantage-icon">
-					<i class="fas fa-coffee"></i>
+					<i class="fas fa-users"></i>
 				</span>
 				<span class="count">
-					777
+					135
 				</span>
 				<span class="advantage-title">
 					Клиентов доверяют
@@ -83,7 +83,7 @@
 					<i class="fas fa-award"></i>
 				</span>
 				<span class="count">
-					777
+					106
 				</span>
 				<span class="advantage-title">
 					Проектов выполнено
@@ -94,7 +94,7 @@
 					<i class="fas fa-paper-plane"></i>
 				</span>
 				<span class="count">
-					777
+					28
 				</span>
 				<span class="advantage-title">
 					Проектов в работе

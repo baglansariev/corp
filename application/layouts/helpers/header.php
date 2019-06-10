@@ -37,7 +37,7 @@
 					<a href="">
 						<li>Услуги</li>
 					</a>
-					<a href="">
+					<a href="/news">
 						<li>Новости</li>
 					</a>
 					<a href="/contact">

@@ -379,17 +379,28 @@ header{
 	color: #444;
 	text-transform: uppercase;
 }
+.owl-carousel{
+	position: relative;
+}
 .owl-carousel div img{
 	width: 180px !important;
 	height: auto;
 }
 .owl-nav{
+	position: absolute;
+	top: -18%;
+	left: 0;
+	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	font-size: 28px;
 }
+.owl-nav{
+	font-size: 50px;
+	color: #666;
+}
 .owl-nav button{
-	margin-right: 20px;
+	outline: none;
 }
 
 
@@ -503,4 +514,86 @@ footer{
 }
 .whywe .whywe-text{
 	padding: 0 20px;
+	text-align: center;
+}
+.page-heading{
+	padding: 30px 0;
+	background-color: #F8F8F8;
+}
+.page-heading h3{
+	color: #2E363A;
+	font-weight: bolder;
+	font-size: 35px;
+	margin-bottom: 0;
+}
+.contact-section{
+	padding: 50px 0;
+}
+.adress, .phone, .e-mail{
+	display: flex;
+	flex-direction: column;
+}
+.adress span:first-of-type,
+.phone span:first-of-type,
+.e-mail span:first-of-type{
+	font-weight: bolder;
+	margin-bottom: 15px;
+}
+.adress span:last-of-type,
+.phone span:last-of-type,
+.e-mail span:last-of-type{
+	color: #6B6B7F;
+}
+.contact-form{
+	display: flex;
+	justify-content: space-between;
+}
+.contact-form div{
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+}
+.contact-form div input[type="text"], 
+.contact-form div textarea{
+	border: 1px solid #E6E6E6;
+	font-size: 17px;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: #F7F7F7;
+	outline: none;
+}
+.contact-form div input[type="text"]:hover, 
+.contact-form div textarea:hover,
+.contact-form div input[type="text"]:focus, 
+.contact-form div textarea:focus{
+	border: 1px solid #18BA60;
+}
+.contact-form div input[type="submit"]{
+	padding: 10px;
+	border: none;
+	background-color: #18BA60;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 2px;
+	transition: all ease 0.4s;
+}
+.contact-form div input[type="submit"]:hover{
+	background-color: #2E363A;
+}
+.contact-form div textarea{
+	height: 100%;
+	margin-bottom: 0;
+}
+.contact-map{
+	display: flex;
+	width: 100%;
+}
+.contact-map iframe{
+	width: 100%;
+}
+.news{
+	padding: 50px 0;
 }
