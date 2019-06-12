@@ -1,15 +1,8 @@
 <div class="main-slider">
-	<i class="fas fa-chevron-left"></i>
-	<i class="fas fa-chevron-right"></i>
 	<div class="slider-viewport" data-current="0">
 		<div class="slider-image">
 			<img src="/public/images/1.jpg" alt="">
-		</div>
-		<div class="slider-image">
-			<img src="/public/images/1.jpg" alt="">
-		</div>
-		<div class="slider-image">
-			<img src="/public/images/1.jpg" alt="">
+			<div id="particles-js"></div>
 		</div>
 	</div>
 </div>
