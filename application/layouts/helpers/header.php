@@ -5,13 +5,13 @@
 				<p class="top-phone">
 					<i class="fas fa-mobile-alt"></i>
 					<span>
-						Телефон: +61 3 8376 6284
+						Телефон: +7 (7252) 27-00-40
 					</span>
 				</p>
 				<p class="top-email">
 					<i class="fas fa-envelope"></i>
 					<span>
-						Email: support24-7@gmail.com
+						Email: expertgroup-m@mail.ru
 					</span>
 				</p>
 			</div>
@@ -35,7 +35,7 @@
 						<li>О нас</li>
 					</a>
 					<a href="">
-						<li>Услуги</li>
+						<li>Отзывы</li>
 					</a>
 					<a href="/news">
 						<li>Новости</li>

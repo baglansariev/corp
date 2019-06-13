@@ -135,6 +135,54 @@ header{
 	top: 0;
 	left: 0;
 }
+.slider-text{
+	position: absolute;
+	width: 45%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 80px;
+	top: 0;
+	left: 0;
+	z-index: 102;
+	color: #fff;
+}
+.slider-text div:first-of-type{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.slider-text div span{
+	font-size: 30px;
+}
+.slider-links{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.slider-links a{
+	padding: 10px 15px;
+	background-color: #18BA60; 
+	border-radius: 5px;
+	margin-right: 20px;
+	text-transform: uppercase;
+	transition: all ease 0.4s;
+}
+.slider-links a:last-of-type{
+	background-color: #3A526A;
+}
+.slider-links a:last-of-type:hover{
+	background-color: #18BA60;
+}
+.slider-links a:first-of-type:hover{
+	background-color: #3A526A;
+}
+.slider-text-heading{
+	padding-bottom: 10px;
+	font-size: 60px;
+	border-bottom: 3px solid #18BA60;
+}
 .slider-image img{
 	width: 100%;
 	height: auto;

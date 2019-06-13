@@ -3,6 +3,16 @@
 		<div class="slider-image">
 			<img src="/public/images/1.jpg" alt="">
 			<div id="particles-js"></div>
+			<div class="slider-text">
+				<div>
+					<h2 class="slider-text-heading">EXPERT GROUP-M</h2>
+					<span>Добро пожаловать!</span>
+				</div>
+				<div class="slider-links">
+					<a href="/about">О компании</a>
+					<a href="/contact">Связаться</a>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -11,21 +21,21 @@
 		<div class="intro-block col-xlg-4 col-lg-4">
 			<div class="intro-cover">
 				<p class="intro-text">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque impedit dignissimos obcaecati iste sed corporis, necessitatibus recusandae, dolorem animi!
+					Наша команда состоит из профессионалов своих областей которые нацелены на выполнение задач компании
 				</p>
-				<a href="" class="info-btn itro-btn">
+				<a href="/about" class="info-btn itro-btn">
 					Подробнее
 				</a>
 			</div>
 			<img src="/public/images/intro-1.jpg" alt="">
 			<p class="intro-label">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Профессионализм превыше всего!
 			</p>
 		</div>
 		<div class="intro-block col-xlg-4 col-lg-4">
 			<div class="intro-cover">
 				<p class="intro-text">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam sapiente enim esse. Corporis saepe, vitae. 
+					При работе с нашими клиентами мы ценим долгосрочное сотрудничество и всегда предлагаем взаимовыгодные условия
 				</p>
 				<a href="" class="info-btn itro-btn">
 					Подробнее
@@ -33,13 +43,13 @@
 			</div>
 			<img src="/public/images/intro-2.jpg" alt="">
 			<p class="intro-label">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Мы ориентированы на долгосрочное сотрудничество!
 			</p>
 		</div>
 		<div class="intro-block col-xlg-4 col-lg-4">
 			<div class="intro-cover">
 				<p class="intro-text">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, iusto, facere dolores necessitatibus temporibus possimus quo porro tenetur veniam dolorum sapiente
+					Мы всегда нацелены на высокое качество предоставляемых нами услуг!
 				</p>
 				<a href="" class="info-btn itro-btn">
 					Подробнее
@@ -47,7 +57,7 @@
 			</div>
 			<img src="/public/images/intro-3.jpg" alt="">
 			<p class="intro-label">
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				Качество нащих услуг на высшем уровне!
 			</p>
 		</div>
 	</div>
@@ -63,11 +73,11 @@
 					</span>
 				</div>
 				<div class="service-text">
-					<p class="service-text-heading">
+					<!-- <p class="service-text-heading">
 						Название услуги
-					</p>
+					</p> -->
 					<p class="service-text-block">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde vitae nesciunt consectetur iusto
+						Предэкспертная консультация и анализ проектных решений
 					</p>
 				</div>
 			</div>
@@ -78,11 +88,11 @@
 					</span>
 				</div>
 				<div class="service-text">
-					<p class="service-text-heading">
+					<!-- <p class="service-text-heading">
 						Название услуги
-					</p>
+					</p> -->
 					<p class="service-text-block">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam amet voluptas sit repudiandae 
+						Определение уровня ответственности здания и сооружения 
 					</p>
 				</div>
 			</div>
@@ -93,11 +103,11 @@
 					</span>
 				</div>
 				<div class="service-text">
-					<p class="service-text-heading">
+					<!-- <p class="service-text-heading">
 						Название услуги
-					</p>
+					</p> -->
 					<p class="service-text-block">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo necessitatibus enim ducimus
+						Оределение отнесения объекта аккредитованными экспертными организациями или государственной монополии
 					</p>
 				</div>
 			</div>
@@ -108,41 +118,11 @@
 					</span>
 				</div>
 				<div class="service-text">
-					<p class="service-text-heading">
+					<!-- <p class="service-text-heading">
 						Название услуги
-					</p>
+					</p> -->
 					<p class="service-text-block">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, repudiandae, amet repellat alias
-					</p>
-				</div>
-			</div>
-			<div class="service col-xlg-4 col-lg-4">
-				<div class="service-icon">
-					<span>
-						<i class="fas fa-calendar-week"></i>
-					</span>
-				</div>
-				<div class="service-text">
-					<p class="service-text-heading">
-						Название услуги
-					</p>
-					<p class="service-text-block">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum voluptates optio libero quidem
-					</p>
-				</div>
-			</div>
-			<div class="service col-xlg-4 col-lg-4">
-				<div class="service-icon">
-					<span>
-						<i class="fas fa-calendar-week"></i>
-					</span>
-				</div>
-				<div class="service-text">
-					<p class="service-text-heading">
-						Название услуги
-					</p>
-					<p class="service-text-block">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos vero modi fugit, rem magnam id
+						Экспертиза проектно-сметной документации 
 					</p>
 				</div>
 			</div>
@@ -157,16 +137,16 @@
 					Обратный звонок
 				</p>
 				<p class="callback-intro-text">
-					 If you need to speak to us about a general query fill in the form below and we will call you back within the same working day.
+					 Если у Вас есть какие-либо вопросы по нашим услугам или Вам нужна консультация специалиста, Вы можете оставить нам свои контактны еданные мы Вам обязательно перезвоним
 				</p>
 			</div>
 			<form action="">
 				<div>
-					<input name="full-name" type="text">
-					<input name="phone" type="text">
+					<input name="full-name" type="text" placeholder="Ф.И.О.">
+					<input name="phone" type="text" placeholder="Телефон">
 				</div>
 				<div>
-					<input name="email" type="text">
+					<input name="email" type="text" placeholder="E-mail">
 					<input class="info-btn" type="submit" value="Отправить">
 				</div>
 			</form>
