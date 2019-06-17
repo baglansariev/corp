@@ -10,7 +10,7 @@
 			$this->view->render('Новости');
 		}
 
-		public function oneNews()
+		public function oneNewsAction()
 		{
 			$this->view->render('Одна новость');
 		}
