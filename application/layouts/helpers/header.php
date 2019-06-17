@@ -24,26 +24,12 @@
 	<div class="header-bottom">
 		<div class="container">
 			<div class="logo">
-				<img src="public/images/icons/logo.png" alt="">
+				<a href="/">
+					<img src="public/images/icons/logo.png" alt="">
+				</a>
 			</div>
 			<nav class="menu">
-				<ul>
-					<a href="/">
-						<li>Главная</li>
-					</a>
-					<a href="/about">
-						<li>О нас</li>
-					</a>
-					<a href="">
-						<li>Отзывы</li>
-					</a>
-					<a href="/news">
-						<li>Новости</li>
-					</a>
-					<a href="/contact">
-						<li>Контакты</li>
-					</a>
-				</ul>
+				<?= $this->menu->getMenuList() ?>
 			</nav>
 		</div>
 	</div>

@@ -1,15 +1,18 @@
 <?php
 	namespace application\core;
+	use application\lib\Menu;
 
 	class View
 	{
 		public $route;
 		public $path;
+		public $menu;
 		public $layout = 'default';
 
 		public function __construct($route)
 		{
 			$this->route = $route;
+			$this->menu = new Menu;
 			$this->path = ucfirst($route['controller']).DS.$route['action'];
 		}
 
