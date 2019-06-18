@@ -43,7 +43,7 @@
 					<a href="/about">
 						<li>О нас</li>
 					</a>
-					<a href="">
+					<a href="/reviews">
 						<li>Отзывы</li>
 					</a>
 					<a href="/news">

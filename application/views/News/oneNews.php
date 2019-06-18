@@ -3,7 +3,7 @@
 		<h1>Lorem ipsum dolor sit amet</h1>
 		<div class="col-xlg-12 col-lg-12">
 			<div class="one-news-img">
-				<img src="" alt="">
+				<img src="/public/images/intro-1.jpg" alt="">
 			</div>
 			<div class="one-news-text">
 				<p>

@@ -48,6 +48,12 @@
 			  <div>
 			  	<img src="/public/images/clients/5.png" alt="">
 			  </div>
+			  <div>
+			  	<img src="/public/images/clients/6.png" alt="">
+			  </div>
+			  <div>
+			  	<img src="/public/images/clients/7.png" alt="">
+			  </div>
 			</div>
 		</div>
 	</div>

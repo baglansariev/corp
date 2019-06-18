@@ -427,7 +427,7 @@ header{
 	position: relative;
 }
 .owl-carousel div img{
-	width: 180px !important;
+	/* width: 180px !important; */
 	height: auto;
 }
 .owl-nav{
