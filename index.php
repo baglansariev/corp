@@ -1,9 +1,9 @@
 <?php
-	session_start();
+	// session_start();
 	
-	require_once('application/lib/devtools.php');
-	require_once('application/lib/define.php');
-	require_once('application/lib/autoload.php');
+	require_once('config.php');
+	require_once(LIB_PATH . 'devtools.php');
+	require_once(LIB_PATH . 'autoload.php');
 
-	$router = new application\core\Router;
+	$router = new application\core\engine\Router;
 	$router->run();

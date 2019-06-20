@@ -446,8 +446,33 @@ header{
 .owl-nav button{
 	outline: none;
 }
-
-
+.one-news, .one-news-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.one-news{
+	margin-bottom: 30px;
+}
+.one-news h1{
+	margin: 40px 0;
+}
+.one-news-img{
+	width: 70%;
+	margin-bottom: 30px;
+}
+.one-news-text{
+	width: 70%;
+}
+.one-news-img img{
+	width: 100%;
+	height: auto;
+}
+.one-news-date{
+	font-size: 13px;
+	color: #444;
+}
 
 footer{
 	background-color: #2E363A;

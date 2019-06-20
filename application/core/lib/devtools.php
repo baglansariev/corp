@@ -13,6 +13,17 @@
 		}
 	}
 
+	function dump($var){
+		if(is_array($var)){
+			echo '<pre>';
+			var_dump($var);
+			echo '</pre>';
+		}
+		else{
+			echo '<pre>'. $var .'</pre>';
+		}
+	}
+
 	function obInclude($path){
 		ob_start();
 		include $path;

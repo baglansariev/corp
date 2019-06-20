@@ -1,24 +1,27 @@
 <?php
-	namespace application\core;
+	namespace application\core\engine;
 
-	use application\core\View;
+	use application\core\engine\View;
+	use application\core\lib\Request;
 
 	class Router
 	{
 		public $routes;
-		public $uri;
+		public $request;
+		public $view;
 		protected $params = [];
 
 	    public function __construct()
 	    {
-	        $this->routes = require_once('application/config/routes.php');
-	        $this->uri = trim($_SERVER['REQUEST_URI'], '/');
+	        $this->routes = require_once(ROUTES_PATH . 'routes.php');
+	        $this->request = new Request;
+	        $this->view = new View;
 	    }
 
 	    public function match()
 	    {	
 	    	foreach ($this->routes as $key => $val) {
-	    		if(preg_match("#^$key$#", $this->uri)){
+	    		if(preg_match("#^$key$#", $this->request->getUri())){
 	    			$this->params = $val;
 	    			return true;
 	    		}
@@ -30,12 +33,11 @@
 	    	if($this->match()){
 	    		$path = 'application\controllers\\'.ucfirst($this->params['controller']).'Controller';
 	    		$action = $this->params['action'].'Action';
-	    		$controller = new $path($this->params, $this->uri);
+	    		$controller = new $path();
 	    		$controller->$action();
 	    	}
 	    	else{
-	    		View::errorResponse(404, 'Страница не найдена');
+	    		$this->view->errorResponse('errors/404', 404);
 	    	}
-	    	// devPrint($this->uri);
 	    }
 	}

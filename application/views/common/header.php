@@ -25,11 +25,11 @@
 		<div class="container">
 			<div class="logo">
 				<a href="/">
-					<img src="public/images/icons/logo.png" alt="">
+					<img src="/public/images/icons/logo.png" alt="">
 				</a>
 			</div>
 			<nav class="menu">
-				<?= $this->menu->getMenuList() ?>
+				<?= $menu ?>
 			</nav>
 		</div>
 	</div>

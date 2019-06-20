@@ -1,17 +1,13 @@
 <?php
-	namespace application\lib;
+	namespace application\core\lib;
 	
 	class Db
 	{
-		protected $db;
 		public $link;
-		public $uri;
 
 		public function __construct()
 		{
-			$this->db = include($_SERVER['DOCUMENT_ROOT']. '/application/config/db.php');
-			$this->setLink($this->db);
-			$this->uri = trim($_SERVER['REQUEST_URI'], '/');
+			$this->setLink();
 		}
 
 		public function getAllRows($query)
@@ -34,9 +30,9 @@
 		}
 
 
-		private function setLink($db = [])
+		private function setLink()
 		{
-			$this->link = mysqli_connect($db['host'], $db['username'], $db['password'], $db['db']);
+			$this->link = mysqli_connect(DB_HOST, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
 			mysqli_query($this->link, "SET NAMES 'utf8'");
 		}
 	}
