@@ -8,6 +8,10 @@
 			'controller' => 'about',
 			'action' => 'index',
 		],
+		'reviews' => [
+			'controller' => 'reviews',
+			'action' => 'index',
+		],
 		'news' => [
 			'controller' => 'news',
 			'action' => 'newsList',

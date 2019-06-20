@@ -29,7 +29,19 @@
 				</a>
 			</div>
 			<nav class="menu">
-				<?= $menu ?>
+				<ul>
+					<? foreach($menu as $link):
+						if($link['url'] == $uri_params):
+							$class = 'class="menu-active"';
+						else:
+							$class = 'class=""';
+						endif;
+					?>
+					<a href="<?= $link['url'] ?>" <?= $class ?>>
+						<li><?= $link['name'] ?></li>
+					</a>
+					<? endforeach ?>
+				</ul>
 			</nav>
 		</div>
 	</div>

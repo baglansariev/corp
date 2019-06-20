@@ -10,44 +10,14 @@
 
 			$result = $header_model->getMenuList();
 			$data = [];
+			$data['uri_params'] = '/'. $this->request->getUriWithoutParams();
 
 			if($result){
-				$data['menu'] = '<ul>';
-
-				foreach ($result as $value) {
-
-					if($value['url'] == '/' . $this->request->getUriWithoutParams()){
-						$class = 'class="menu-active"';
-					}
-					else{
-						$class = 'class=""';
-					}
-
-					$data['menu'] .= '<a href="'. $value['url'] .'" '. $class .'>';
-					$data['menu'] .= '<li>'. $value['name'] .'</li>';
-					$data['menu'] .= '</a>';
-				}
-				$data['menu'] .= '</ul>';
+				$data['menu'] = $result;
 			}
 			else{
-				$data['menu'] = 
-				'<ul>
-					<a href="/">
-						<li>Главная</li>
-					</a>
-					<a href="/about">
-						<li>О нас</li>
-					</a>
-					<a href="/reviews">
-						<li>Отзывы</li>
-					</a>
-					<a href="/news">
-						<li>Новости</li>
-					</a>
-					<a href="/contact">
-						<li>Контакты</li>
-					</a>
-				</ul>';
+				$result = require_once(LIB_PATH . 'local_data.php');
+				$data['menu'] = $result['header-bottom-data']['menu'];
 			}
 
 			return $this->load->view('common/header', $data);

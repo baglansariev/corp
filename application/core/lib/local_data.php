@@ -5,8 +5,31 @@
 			'email' => 'example@example.com',
 		],
 		'header-bottom-data' => [
-			'logo' => '/public/images/default/logo.png',
-			'menu' => ['Main', 'About Us', 'Reviews', 'News', 'Contacts'],
+			'logo' => [
+				0 => '/public/images/default/logo.png',
+			],
+			'menu' => [
+				0 => [
+					'name' => 'Main',
+					'url' => '/',
+				],
+				1 => [
+					'name' => 'About Us',
+					'url' => '/about',
+				],
+				2 => [
+					'name' => 'Reviews',
+					'url' => '/reviews',
+				],
+				3 => [
+					'name' => 'News',
+					'url' => '/news',
+				],
+				4 => [
+					'name' => 'Contacts',
+					'url' => '/contact',
+				],
+			],
 		],
 		'slider-data' => [
 			'slider-image' => '/public/images/default/main-slide.jpg',
