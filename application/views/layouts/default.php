@@ -20,7 +20,7 @@
 	<? endforeach ?>
 	<script type="text/javascript" src="/public/style/js/jquery-3.4.0.min.js"></script>
 	<script src="/public/style/owl-carousel/owl.carousel.min.js"></script>
-	<script src="/public/style/particles/particles.min.js"></script>
+	<!-- <script src="/public/style/particles/particles.min.js"></script> -->
 	<script type="text/javascript" src="/public/style/js/app.js"></script>
 	<? foreach($this->asset->getJs() as $js): ?>
 	<script type="text/javascript" src="<?= $js ?>"></script>

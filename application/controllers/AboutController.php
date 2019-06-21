@@ -7,8 +7,8 @@
 	{
 		public function indexAction()
 		{
-			$this->view->asset->setMetaDesc('Тестовое описание');
-	    	$this->view->asset->setMetaKeys('ключ1, ключ2');
+			$this->view->asset->setMetaDesc('Информация о компании ТОО Expert Group-M');
+	    	$this->view->asset->setMetaKeys('egm.kz, Экспертиза проектно-сметной документации');
 	    	$this->view->asset->setTitle('О компании');
 	    	
 	    	$data['header'] = $this->load->controller('common/HeaderController');

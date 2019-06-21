@@ -34,6 +34,9 @@
 			if(class_exists($path)){
 				$controller =  new $path;
 			}
+			else{
+				return 'Class (' . $path . ') does not exist';
+			}
 
 			$method = 'index';
 
@@ -41,7 +44,7 @@
 				return $controller->$method();
 			}
 			else{
-				return 'Name of the default method of your loading Class have to be "index"';
+				return 'Name of the default method of your loading Class (' . $path . ') have to be "index"';
 			}
 		}
 
