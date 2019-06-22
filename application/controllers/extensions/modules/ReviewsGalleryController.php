@@ -13,8 +13,8 @@
 			$data = [];
 
 			if($result){
-				foreach ($result as $value) {
-					$data['img_src'][] = $value['src'];
+				foreach ($result as $review) {
+					$data['review_src'][] = $review['src'];
 				}
 			}
 

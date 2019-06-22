@@ -8,4 +8,9 @@
 		{
 			return $this->db->getAllRows("SELECT src FROM reviews");
 		}
+
+		public function getCertificates()
+		{
+			return $this->db->getAllRows("SELECT src FROM certificates");
+		}
 	}

@@ -111,5 +111,11 @@
 			</div>
 		</div>
 	</div>
+	<div class="certificates">
+		<div class="container">
+			<h3>Наши сертификаты</h3>
+			<?= $certificates ?>
+		</div>
+	</div>
 </main>
 <?= $footer ?>

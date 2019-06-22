@@ -39,7 +39,7 @@
 					<p class="intro-text">
 						При работе с нашими клиентами мы ценим долгосрочное сотрудничество и всегда предлагаем взаимовыгодные условия
 					</p>
-					<a href="" class="info-btn itro-btn">
+					<a href="/about" class="info-btn itro-btn">
 						Подробнее
 					</a>
 				</div>
@@ -53,7 +53,7 @@
 					<p class="intro-text">
 						Мы всегда нацелены на высокое качество предоставляемых нами услуг!
 					</p>
-					<a href="" class="info-btn itro-btn">
+					<a href="/about" class="info-btn itro-btn">
 						Подробнее
 					</a>
 				</div>
