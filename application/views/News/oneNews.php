@@ -1,22 +1,28 @@
 <?= $header ?>
 <main>
 	<div class="container">
+		<? if(!empty($one_news)): ?>
+		<? foreach($one_news as $article): ?>
 		<div class="one-news row">
-			<h1>Lorem ipsum dolor sit amet</h1>
+			<h1><?= $article['title'] ?></h1>
 			<div class="one-news-content col-xlg-12 col-lg-12">
 				<div class="one-news-img">
-					<img src="/public/images/intro-1.jpg" alt="">
+					<img src="<?= $article['img'] ?>" alt="">
 				</div>
 				<div class="one-news-text">
 					<p class="one-news-date">
-						19.06.2019 г
+						<?= $article['date_insert'] ?>
 					</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro consectetur cumque expedita, aut, sed molestiae ea! Incidunt, quis eum quaerat totam ipsam ut recusandae, delectus quasi quae nemo ipsa doloremque.
+						<?= $article['full_text'] ?>
 					</p>
 				</div>
 			</div>
 		</div>
+		<? endforeach ?>
+		<? else: ?>
+		<h1><?= $news_error ?></h1>
+		<? endif ?>
 	</div>
 </main>
 <?= $footer ?>

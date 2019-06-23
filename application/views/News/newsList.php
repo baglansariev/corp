@@ -7,66 +7,28 @@
 	</div>
 	<div class="news container">
 		<div class="row">
+			<? foreach($news as $article): ?>
 			<div class="one-news col-xlg-4 col-lg-4">
 				<div class="news-image">
-					<a href="">
-						<img src="/public/images/intro-1.jpg" alt="">
+					<a href="/news/<?= $article['id'] ?>">
+						<img src="<?= $article['img'] ?>" alt="">
 					</a>
 					<span class="date">
-						01 июн
+						<?= $article['date_insert'] ?>
 					</span>
 				</div>
 				<div class="news-text">
 					<p class="news-heading">
-						<a href="">
-							lorem ipsum dolor sit
+						<a href="/news/<?= $article['id'] ?>">
+							<?= $article['title'] ?>
 						</a>
 					</p>
 					<p class="news-intro-text">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, error, consectetur? Tempora exercitationem
+						<?= $article['short_text'] ?>
 					</p>
 				</div>
 			</div>
-			<div class="one-news col-xlg-4 col-lg-4">
-				<div class="news-image">
-					<a href="">
-						<img src="/public/images/intro-2.jpg" alt="">
-					</a>
-					<span class="date">
-						01 июн
-					</span>
-				</div>
-				<div class="news-text">
-					<p class="news-heading">
-						<a href="">
-							lorem ipsum dolor sit
-						</a>
-					</p>
-					<p class="news-intro-text">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio eaque temporibus ipsum dolor
-					</p>
-				</div>
-			</div>
-			<div class="one-news col-xlg-4 col-lg-4">
-				<div class="news-image">
-					<a href="">
-						<img src="/public/images/intro-3.jpg" alt="">
-					</a>
-					<span class="date">
-						01 июн
-					</span>
-				</div>
-				<div class="news-text">
-					<p class="news-heading">
-						<a href="">
-							lorem ipsum dolor sit
-						</a>
-					</p>
-					<p class="news-intro-text">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero porro odit officia accusantium
-					</p>
-				</div>
-			</div>
+			<? endforeach ?>
 		</div>
 	</div>
 </main>

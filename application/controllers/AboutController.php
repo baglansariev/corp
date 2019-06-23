@@ -16,11 +16,14 @@
 
 	    	$data = array();
 
+	    	$data['clients'] = $this->load->controller('extensions/modules/ClientsController');
 	    	$data['certificates'] = $this->load->controller('extensions/modules/CertificatesGalleryController');
+	    	$data['advantages'] = $this->load->controller('extensions/modules/AdvantagesController');
 
 	    	
 	    	$data['header'] = $this->load->controller('common/HeaderController');
 	    	$data['footer'] = $this->load->controller('common/FooterController');
+
 	    	$this->view->response('About/index', $data);
 		}
 	}

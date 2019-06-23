@@ -10,7 +10,7 @@
 			$gallery_model = $this->load->model('extensions/modules/Gallery');
 
 			$result = $gallery_model->getReviews();
-			$data = [];
+			$data = array();
 
 			if($result){
 				foreach ($result as $review) {

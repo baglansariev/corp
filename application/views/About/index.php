@@ -31,32 +31,7 @@
 		<div class="container">
 			<h3>Нам доверяют</h3>
 			<div class="row">
-				<div class="owl-carousel">
-				  <div>
-				  	<img src="/public/images/clients/1.png" alt="">
-				  </div>
-				  <div>
-				  	<img src="/public/images/clients/2.png" alt="">
-				  </div>
-				  <div>
-				  	<img src="/public/images/clients/3.png" alt="">
-				  </div>
-				  <div>
-				  	<img src="/public/images/clients/4.png" alt="">
-				  </div>
-				  <div>
-				  	<img src="/public/images/clients/5.png" alt="">
-				  </div>
-				  <div>
-				  	<img src="/public/images/clients/5.png" alt="">
-				  </div>
-				  <div>
-				  	<img src="/public/images/clients/6.png" alt="">
-				  </div>
-				  <div>
-				  	<img src="/public/images/clients/7.png" alt="">
-				  </div>
-				</div>
+				<?= $clients ?>
 			</div>
 		</div>
 	</div>
@@ -64,50 +39,7 @@
 		<div class="container">
 			<h3>Наши достижения</h3>
 			<div class="row">
-				<div class="advantage col-xlg-3 col-lg-3">
-					<span class="advantage-icon">
-						<i class="fas fa-coffee"></i>
-					</span>
-					<span class="count">
-						2
-					</span>
-					<span class="advantage-title">
-						Года на рынке
-					</span>
-				</div>
-				<div class="advantage col-xlg-3 col-lg-3">
-					<span class="advantage-icon">
-						<i class="fas fa-users"></i>
-					</span>
-					<span class="count">
-						135
-					</span>
-					<span class="advantage-title">
-						Клиентов доверяют
-					</span>
-				</div>
-				<div class="advantage col-xlg-3 col-lg-3">
-					<span class="advantage-icon">
-						<i class="fas fa-award"></i>
-					</span>
-					<span class="count">
-						106
-					</span>
-					<span class="advantage-title">
-						Проектов выполнено
-					</span>
-				</div>
-				<div class="advantage col-xlg-3 col-lg-3">
-					<span class="advantage-icon">
-						<i class="fas fa-paper-plane"></i>
-					</span>
-					<span class="count">
-						28
-					</span>
-					<span class="advantage-title">
-						Проектов в работе
-					</span>
-				</div>
+				<?= $advantages ?>
 			</div>
 		</div>
 	</div>

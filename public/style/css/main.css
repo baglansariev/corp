@@ -395,6 +395,10 @@ header{
 .news-image img{
 	width: 100%;
 	height: auto;
+	transition: all ease 0.4s;
+}
+.news-image img:hover{
+	transform: rotateZ(5deg);
 }
 .news-text{
 	width: 100%;
@@ -468,6 +472,7 @@ header{
 .one-news-img img{
 	width: 100%;
 	height: auto;
+	
 }
 .one-news-date{
 	font-size: 13px;
