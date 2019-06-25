@@ -3,11 +3,15 @@
 
 	class Request
 	{
+	    public $get = array();
+	    public $post = array();
 		private $uri;
 
 		public function __construct()
 		{
 			$this->uri = trim($_SERVER['REQUEST_URI'], '/');
+			$this->get = $this->getValue($_GET);
+			$this->post = $this->getValue($_POST);
 		}
 
 		public function getUri()
@@ -26,13 +30,8 @@
 			return $this->uri;
 		}
 
-		public function get($name)
+		public function getValue($data)
 		{
-			return $_GET[$name];
-		}
-
-		public function post($name)
-		{
-			return $_POST[$name];
+			return $data;
 		}
 	}

@@ -1,0 +1,54 @@
+.form-cover{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 444;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+.form-cover form{
+	margin-top: -200px;
+	background-color: #fff;
+	border-radius: 10px;
+	width: 30%;
+	height: 230px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.modal-form-heading{
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 20px;
+}
+.modal-form-name, .modal-form-phone{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 15px;
+}
+.modal-form-name input, .modal-form-phone input{
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #cdcdcd;
+	width: 70%;
+}
+.form-cover form input[type="submit"]{
+	padding: 5px 10px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bolder;
+	cursor: pointer;
+	background-color: #18BA60;
+	color: #fff;
+}
+.form-cover form input[type="submit"]:hover{
+	background-color: #2E363A;
+}
