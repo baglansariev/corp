@@ -1,5 +1,5 @@
 <? foreach($news as $article): ?>
-<div class="one-news col-xlg-4 col-lg-4">
+<div class="one-news col-xlg-4 col-lg-4 col-md-6 col-sm-12">
 	<div class="news-image">
 		<a href="/news/<?= $article['id'] ?>">
 			<img src="<?= $article['img'] ?>" alt="">

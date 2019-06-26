@@ -1,5 +1,5 @@
 <? foreach($intro_blocks as $intro_block): ?>
-<div class="intro-block col-xlg-4 col-lg-4">
+<div class="intro-block col-xlg-4 col-lg-4 col-md-6 col-sm-12">
 	<div class="intro-cover">
 		<p class="intro-text">
 			<?= $intro_block['text'] ?>

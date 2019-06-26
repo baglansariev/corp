@@ -1,5 +1,5 @@
 <? foreach($services_text as $text): ?>
-<div class="service col-xlg-4 col-lg-4">
+<div class="service col-xlg-4 col-lg-4 col-md-6">
 	<div class="service-icon">
 		<span>
 			<i class="fas fa-calendar-week"></i>
