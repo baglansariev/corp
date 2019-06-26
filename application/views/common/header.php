@@ -29,6 +29,7 @@
 				</a>
 			</div>
 			<nav class="menu">
+                <i class="fas fa-bars"></i>
 				<ul>
 					<? foreach($menu as $link):
 						if($link['url'] == $uri_params):

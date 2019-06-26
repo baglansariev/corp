@@ -15,6 +15,7 @@
 	background-color: #fff;
 	border-radius: 10px;
 	width: 30%;
+	min-width: 320px;
 	height: 230px;
 	display: flex;
 	flex-direction: column;

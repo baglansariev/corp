@@ -84,6 +84,20 @@ header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+.menu .fa-bars{
+	font-size: 25px;
+	display: none;
+	cursor: pointer;
+	-webkit-transition: all ease 0.4s;
+	-moz-transition: all ease 0.4s;
+	-o-transition: all ease 0.4s;
+	transition: all ease 0.4s;
+}
+.menu .fa-bars:hover{
+	color: #18BA60;
 }
 .menu ul{
 	width: 100%;
@@ -92,6 +106,18 @@ header{
 	justify-content: flex-end;
 	align-items: center;
 	margin-bottom: 0;
+	transition: all ease 0.4s;
+}
+.mobile-menu{
+	height: 200px !important;
+	display: flex !important;
+	flex-direction: column;
+	padding: 20px;
+	position: absolute;
+	top: 100%;
+	background-color: #fff;
+	z-index: 1000;
+	transition: all ease 0.4s;
 }
 .menu ul a{
 	height: 100%;
@@ -705,5 +731,22 @@ footer{
 	}
 	.slider-text-heading{
 		font-size: 55px;
+	}
+}
+@media screen and (max-width: 767px){
+	.menu{
+		align-items: flex-end;
+	}
+	.menu ul{
+		display: none;
+	}
+	.menu .fa-bars{
+		display: block;
+	}
+	.top-1{
+		display: none;
+	}
+	.header-top .container{
+		justify-content: flex-end;
 	}
 }

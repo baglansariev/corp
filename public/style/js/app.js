@@ -89,6 +89,15 @@ $(function(){
 	            items:5
 	        }
 	    }
-	});	
+	});
+
+	$('.fa-bars').click(function(){
+		$('.menu ul').toggleClass('mobile-menu');
+	});
+
+	if($('.slider-image img') !== typeof 'undefined'){
+		var imgHeight = $('.slider-image img').height();
+		$('.slider-image').height(imgHeight);
+	}
 	
 });

@@ -2,41 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c462666-784d-4646-8fa6-47ebeb726719" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/application/core/lib/Mail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/170f91a86df42a3ff722fe80a84ac383" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/1b36c1487b3a11055d79ea435b1a2539" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/1cf33362bf8b7ab21e63580a4734710a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/1d39cdfe0864e825268733b43f742f88" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/2479fefa9e9cf2ee208e4b7922f7c9e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/2d0468758ee356044bf5d0a3af88ce25" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/35877758e904e9e69260ff1e3590a481" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/449768571d3debd9fa8a24a1eccab786" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/4a8b5849fb1c6fac2661786d62118035" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/4be1867f88776695a7b786768c40bc64" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/523227dee5a53771f57a066a0d0924e7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/5e4bf57d3917485c7554136b73e6b357" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/5f67c80f6ac5949cbed333c932b8d4e0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/696c28080b4894895d87c293f4190ea1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/6aee607b12e02281e39fb4e0a17fa77b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/6e186665bb620c70b5ec49a878da8c52" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/79487d79e33ac16854a41c5052227621" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/7b040e2e5394a8de64aad36339e2f263" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/902126756add2420f52d0e0b86bc5697" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/bb1dfdfdfbd853d2525f8baaab012ecb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/bed6d5576b159f67eeb503831edddfe4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/cdfc11acef4a68a4de3e6c0c219001af" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/d7917ff0a294c34cf0f56baff93276cf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/ddac4ad5ac8beff86a576ff99a751e03" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/e156509b6f29f446996547d92322d211" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/e7db886a0b69351895bebb58c52382fc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/ea19e33a3589382533f67e4bad9367d3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/ef47cde81c8136a7048ee2197007f9f3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/f7081cb3143fc4e9bd38a74021329a50" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.phpintel/index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/core/lib/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/lib/Request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/core/lib/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/lib/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/common/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/layouts/default.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/css/modal-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/css/modal-form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/js/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,47 +15,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/core/lib/Mail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-              <folding>
-                <element signature="e#46#79#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/core/lib/Request.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/style/js/modal-form.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.menu</find>
+      <find>.menu .fa-bars{</find>
+      <find>.menu .fa-bars{</find>
+      <find>relative</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,14 +32,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/application/views/layouts/default.php" />
-        <option value="$PROJECT_DIR$/application/views/common/header.php" />
-        <option value="$PROJECT_DIR$/public/style/css/modal-form.css" />
         <option value="$PROJECT_DIR$/application/core/lib/autoload.php" />
         <option value="$PROJECT_DIR$/application/core/lib/mail.php" />
         <option value="$PROJECT_DIR$/public/style/js/modal-form.js" />
         <option value="$PROJECT_DIR$/application/core/lib/Request.php" />
         <option value="$PROJECT_DIR$/application/core/lib/Mail.php" />
         <option value="$PROJECT_DIR$/application/controllers/MainController.php" />
+        <option value="$PROJECT_DIR$/application/views/common/header.php" />
+        <option value="$PROJECT_DIR$/public/style/css/main.css" />
+        <option value="$PROJECT_DIR$/public/style/js/app.js" />
+        <option value="$PROJECT_DIR$/public/style/css/modal-form.css" />
       </list>
     </option>
   </component>
@@ -115,11 +55,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1295" />
-    <option name="y" value="-106" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -133,55 +73,6 @@
               <item name="corp" type="b2602c69:ProjectViewProjectNode" />
               <item name="corp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="corp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="corp" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="corp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="corp" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="corp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="corp" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="corp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="corp" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="corp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="corp" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="corp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="corp" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="corp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="corp" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="corp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="corp" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -190,10 +81,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bandura" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -217,25 +110,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561441538220</updated>
-      <workItem from="1561441539613" duration="5293000" />
+      <workItem from="1561441539613" duration="12186000" />
+      <workItem from="1561463400141" duration="113000" />
+      <workItem from="1561518846808" duration="629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5293000" />
+    <option name="totallyTimeSpent" value="12928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-145" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16055046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -243,10 +132,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,13 +158,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/layouts/default.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -285,110 +172,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/style/css/modal-form.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/common/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/engine/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/lib/Db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/engine/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/engine/Loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1204">
-          <caret line="43" column="46" lean-forward="true" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/style/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/lib/Asset.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-924">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/lib/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/lib/devtools.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/lib/local_data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1253" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/web/routes.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/lib/Mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="20" column="60" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
-          <folding>
-            <element signature="e#46#79#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/style/js/modal-form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="78" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/MainController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/lib/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
