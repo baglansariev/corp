@@ -28,7 +28,7 @@
 	    	$data['header'] = $this->load->controller('common/HeaderController');
 	    	$data['footer'] = $this->load->controller('common/FooterController');
 
-	    	$this->view->response('News/newslist', $data);
+	    	$this->view->response('News/newsList', $data);
 	    }
 
 	    public function oneNewsAction()
