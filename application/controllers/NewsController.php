@@ -65,7 +65,7 @@
 	    	$data['header'] = $this->load->controller('common/HeaderController');
 	    	$data['footer'] = $this->load->controller('common/FooterController');
 
-	    	$this->view->response('News/onenews', $data);
+	    	$this->view->response('News/oneNews', $data);
 	    }
 
 	    public function latestNews($limit)
