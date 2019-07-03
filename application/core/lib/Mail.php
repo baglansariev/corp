@@ -13,6 +13,22 @@
         {
             $this->request = new Request;
             $this->phpMailer = new PHPMailer;
+
+            // Настройки
+            $phpMailer = new PHPMailer;
+            $phpMailer->CharSet = 'UTF-8';
+            $phpMailer->isSMTP();
+            $phpMailer->Host = 'smtp.mail.ru';
+            $phpMailer->SMTPAuth = true;
+            $phpMailer->Username = 'baglansariev@mail.ru'; // Ваш логин в Яндексе. Именно логин, без @yandex.ru
+            $phpMailer->Password = 'CEREBRO50500262102'; // Ваш пароль
+            $phpMailer->SMTPSecure = 'ssl';
+            $phpMailer->Port = 25;
+            $phpMailer->setFrom('baglansariev@mail.ru'); // Ваш Email
+            $phpMailer->addAddress('baglansariev@mail.ru'); // Email получателя
+
+//            $this->modalFormSend();
+            echo 'HI';
         }
         public function modalFormSend()
         {
@@ -20,34 +36,18 @@
                 $clientName = $this->request->post['name'];
                 $clientPhone = $this->request->post['phone'];
 
-                $this->setPhpMailerParams($clientName, $clientPhone);
-            }
-        }
-        private function setPhpMailerParams($name, $number)
-        {
-            // Настройки
-            $phpMailer = new PHPMailer;
-            $phpMailer->CharSet = 'UTF-8';
-            $phpMailer->isSMTP();
-            $phpMailer->Host = 'smtp.mail.ru';
-            $phpMailer->SMTPAuth = true;
-            $phpMailer->Username = 'asarkazyna@mail.ru'; // Ваш логин в Яндексе. Именно логин, без @yandex.ru
-            $phpMailer->Password = 'parol123'; // Ваш пароль
-            $phpMailer->SMTPSecure = 'ssl';
-            $phpMailer->Port = 25;
-            $phpMailer->setFrom('asarkazyna@mail.ru'); // Ваш Email
-            $phpMailer->addAddress('asarkazyna@mail.ru'); // Email получателя
-
-            // Письмо
-            $phpMailer->isHTML(true);
-            $phpMailer->Subject = 'ASARKAZYNA.KZ: Клиент заказал звонок'; // Заголовок письма
-            $phpMailer->Body = "Имя: $name \r\n Телефон: $number \r\n"; // Текст письма
-            // Результат
-            if(!$phpMailer->send()) {
-                echo 'Message could not be sent.';
-                echo 'Mailer Error: ' . $phpMailer->ErrorInfo;
-            } else {
-                echo 'ok';
+                // Письмо
+//                $phpMailer->isHTML(true);
+//                $phpMailer->Subject = 'ASARKAZYNA.KZ: Клиент заказал звонок'; // Заголовок письма
+//                $phpMailer->Body = "Имя: $name \r\n Телефон: $number \r\n"; // Текст письма
+//                // Результат
+//                if(!$phpMailer->send()) {
+//                    echo 'Message could not be sent.';
+//                    echo 'Mailer Error: ' . $phpMailer->ErrorInfo;
+//                } else {
+//                    echo 'ok';
+//                }
+                echo 'works';
             }
         }
     }

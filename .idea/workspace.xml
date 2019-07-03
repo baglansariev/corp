@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c462666-784d-4646-8fa6-47ebeb726719" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/application/controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/NewsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/core/lib/Mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/lib/Mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style/js/modal-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/style/js/modal-form.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +18,21 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controllers/NewsController.php">
+        <entry file="file://$PROJECT_DIR$/application/core/lib/Mail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+            <state relative-caret-position="-120">
+              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/style/js/modal-form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="14" column="51" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -45,12 +56,9 @@
         <option value="$PROJECT_DIR$/application/views/layouts/default.php" />
         <option value="$PROJECT_DIR$/application/core/lib/autoload.php" />
         <option value="$PROJECT_DIR$/application/core/lib/mail.php" />
-        <option value="$PROJECT_DIR$/public/style/js/modal-form.js" />
         <option value="$PROJECT_DIR$/application/core/lib/Request.php" />
-        <option value="$PROJECT_DIR$/application/core/lib/Mail.php" />
         <option value="$PROJECT_DIR$/application/controllers/MainController.php" />
         <option value="$PROJECT_DIR$/application/views/common/header.php" />
-        <option value="$PROJECT_DIR$/public/style/js/app.js" />
         <option value="$PROJECT_DIR$/public/style/css/modal-form.css" />
         <option value="$PROJECT_DIR$/application/views/extensions/modules/intro-blocks.php" />
         <option value="$PROJECT_DIR$/application/views/extensions/modules/services.php" />
@@ -60,6 +68,10 @@
         <option value="$PROJECT_DIR$/public/style/css/main.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/application/controllers/NewsController.php" />
+        <option value="$PROJECT_DIR$/application/core/web/routes.php" />
+        <option value="$PROJECT_DIR$/public/style/js/app.js" />
+        <option value="$PROJECT_DIR$/public/style/js/modal-form.js" />
+        <option value="$PROJECT_DIR$/application/core/lib/Mail.php" />
       </list>
     </option>
   </component>
@@ -74,7 +86,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,13 +101,26 @@
             <path>
               <item name="corp" type="b2602c69:ProjectViewProjectNode" />
               <item name="corp" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="corp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="corp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="corp" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,18 +156,19 @@
       <workItem from="1561441539613" duration="12186000" />
       <workItem from="1561463400141" duration="113000" />
       <workItem from="1561518846808" duration="10383000" />
-      <workItem from="1562062379309" duration="419000" />
+      <workItem from="1562062379309" duration="1795000" />
+      <workItem from="1562153279017" duration="2897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23101000" />
+    <option name="totallyTimeSpent" value="27374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16187595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16414523" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -156,7 +181,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32733223" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -214,11 +239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/style/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2214" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/extensions/modules/advantages.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -242,8 +262,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/NewsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
+        <state relative-caret-position="1297">
           <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/web/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/common/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/style/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/style/js/modal-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/lib/Mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
