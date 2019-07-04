@@ -42,14 +42,14 @@
 						 Если у Вас есть какие-либо вопросы по нашим услугам или Вам нужна консультация специалиста, Вы можете оставить нам свои контактны еданные мы Вам обязательно перезвоним
 					</p>
 				</div>
-				<form action="">
+				<form class="feedback-form" action="">
 					<div>
-						<input name="full-name" type="text" placeholder="Ф.И.О.">
-						<input name="phone" type="text" placeholder="Телефон">
+						<input name="feedback-name" type="text" placeholder="Ф.И.О.">
+						<input name="feedback-phone" type="text" placeholder="Телефон">
 					</div>
 					<div>
-						<input name="email" type="text" placeholder="E-mail">
-						<input class="info-btn" type="submit" value="Отправить">
+						<input name="feedback-email" type="text" placeholder="E-mail">
+						<input id="feedback-send" class="info-btn" type="submit" value="Отправить">
 					</div>
 				</form>
 			</div>

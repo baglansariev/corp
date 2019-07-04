@@ -24,13 +24,13 @@
 			<div class="contact-us col-xlg-7 col-lg-7">
 				<form class="contact-form" action="">
 					<div>
-						<input type="text" name="name" placeholder="Ф.И.О.">
-						<input type="text" name="email" placeholder="E-mail">
-						<input type="text" name="question" placeholder="3 + 4 = ?">
-						<input type="submit" value="Отправить сообщение">
+						<input type="text" name="contact-name" placeholder="Ф.И.О.">
+						<input type="text" name="contact-email" placeholder="E-mail">
+						<input type="text" name="contact-question" placeholder="3 + 4 = ?">
+						<input id="contact-send" type="submit" value="Отправить сообщение">
 					</div>
 					<div>
-						<textarea name="message-text" placeholder="Сообщение..."></textarea>
+						<textarea name="contact-text" placeholder="Сообщение..."></textarea>
 					</div>
 				</form>
 			</div>
